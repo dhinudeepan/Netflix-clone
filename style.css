@@ -1,0 +1,292 @@
+body{
+    background-color: black;
+}
+
+.header{
+    
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(main.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button {
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 4px;
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+    
+}
+
+.language{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+}
+.language img{
+width: 10px;
+margin-left: 10px;
+}
+
+.header-content{
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+.header-content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 900;
+    max-width: 650px;
+}
+.header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.email-signup{
+background: transparent;
+border-radius: 4px;
+display: flex;
+align-items: center;
+margin-top: 30px;
+overflow: hidden;
+
+gap: 10px;
+}
+.email-signup input{
+    flex: 1px;
+    border: 1px solid white;
+    border-color: #fff;
+    margin-left: 20px;
+    background: transparent;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 6px;
+}
+
+.container{
+    margin-left: 120px;
+    
+
+}
+h2{
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.drop-down{
+    display: inline flex;
+    gap: 20px;
+}
+
+select{
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+::placeholder{
+    color: #fff;
+    font: bold;
+}
+.poster{
+    overflow-y: hidden; 
+    white-space: nowrap;  
+    margin-left: 130px;
+    margin-top: 20px;
+    
+}
+.mov-list{
+    display: inline-block; 
+    padding: 20px; 
+}
+.mov-list img{
+    border-radius: 5px;
+}
+.mov-list :hover{
+    transform: scale(1.05);
+}
+.sec-hed{
+    color: #fff;
+    margin-left: 120px;
+}
+.card{
+    color: #fff;
+    background: rgb(33,32,113);
+    background: linear-gradient(148deg, rgba(33,32,113,1) 0%, rgba(19,18,68,1) 16%, rgba(22,4,50,1) 75%, rgb(50, 13, 54) 98%);
+    padding: 20px;
+    width: 20%;
+    height: 250px;
+    text-align: left;
+    border-radius: 15px;
+}
+.reason{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: 120px;
+    
+}
+.card p{
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 0;
+    font-family: Arial, sans-serif;
+}
+
+.freq-ques :hover{
+    background-color: #6b6161;
+}
+.freq-ques{
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transition: background-color 0.5ms ease;
+}
+.freq{
+    margin-left: 160px;
+} 
+.ques{
+    color: #fff;
+    background-color: rgb(48, 46, 46);
+    gap: 20px;
+    height: 60px;
+    width: 1000px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    text-align: justify; 
+    cursor: pointer;
+}
+.email-signup input{
+    color: #fff;
+}
+
+.detail{
+    color: #fff;
+    margin-top: 80px;
+    margin-left: 160px;
+    font-family: Arial, sans-serif;
+}
+.search-2 {
+    width: 100%; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    text-align: left; 
+    color: #ffffff; 
+    background-color: #2c2e4a; 
+    border: 1px solid #ffffff; 
+    border-radius: 5px;
+}
+.email-2 button {
+    width: 250px;
+    background-color: red;
+    color: rgb(245, 234, 234); 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px;
+    font: bold;
+    text-align: left;
+    font-size: 25px;
+}
+.last-entry form{
+    display: flex;
+    max-width: 950px;
+    height: 50px;
+    margin: 0;
+    
+}
+.last-entry{
+    padding: 40px 160px;
+    
+}
+.email-2{
+    gap: 10px;
+}
+.contact{
+    color: #fff;
+    display: flex;
+    margin-left: 180px;
+    margin-top: -20px;
+    gap: 10px;
+    font-family:Arial, sans-serif ;
+}
+.contact u{
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin-left: 180px;
+    margin-top: 20px;
+   
+    
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    
+    color: white;
+    
+}
+.column a{
+    color: white;
+    font-family:Arial, sans-serif ;
+    font-size: px;
+    margin-bottom: 10px;
+}
+.net{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.net a{
+    color: #fff;
+    margin-left: 180px;
+}
+.email-2 button{
+    transition: background-color 0.5s ease;
+}
+.email-2 button :hover{
+    background-color: #5b1b1b;
+}
